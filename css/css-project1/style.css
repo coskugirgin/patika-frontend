@@ -1,13 +1,16 @@
+/* Body general */
 body {
     background-color: rgb(215, 192, 174);
     font-family: 'Bruno Ace SC', cursive;
 }
 
+/* Links */
 a:link, a:visited {
     color:black;
     text-decoration: none;
 }
 
+/* Headings and paragraphes */
 h1 {    
     font-size: 70px;
     text-align: center;
@@ -22,6 +25,7 @@ p {
     font-size: 25px;  
 }
     
+/* table classes */
 table {
     margin: auto;
 }
@@ -36,7 +40,8 @@ table {
     font-size: 25px;
 }
 
-content {
+/* Section and articles */
+section {
     margin: inherit;
 }
 
