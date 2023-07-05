@@ -1,0 +1,157 @@
+
+
+/* Top navigation showing links and PP */
+  .top-nav {
+    font-size: 24px;
+    text-align: right;
+    
+    text-decoration: none;
+  }
+  .top-nav {
+ 
+    text-decoration: none;
+  }
+  .top-nav-element {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+ 
+/* Logo area */
+  .logo-area {
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+/* Search area general */
+  .search-area {
+    width: 850px;
+    height: 75px;
+    border-radius: 55px;
+    margin-top: 20px;
+    border: 2px solid #dee2e5;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .search-element {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    margin-top: 15px;
+    vertical-align: middle;
+  }  
+
+
+ #input1 {
+  width: 700px;
+  height: 45px;
+  border: none;
+  outline: none;
+  display: flex;
+  font-size: 25px;
+ }
+  .button-area {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+ 
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+
+
+  .googlesearch {
+    margin: 5px 5px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+  }
+  
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+  }
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e5e6e9;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+  }
+  
+  .footerli {
+    float: left;
+    list-style: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #5c5d5e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
